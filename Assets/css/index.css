@@ -49,6 +49,7 @@ nav ul li a{
   background-image: url('../images/backgroundimage.png');
   background-repeat: repeat;
   text-align: center;
+    line-height: 2;
 }
 .log{
   padding-top: 50px;
@@ -62,31 +63,39 @@ nav ul li a{
 .peeps{
   margin-top: -900px;
 } */
-.conthome{
+.conthomer,.conthomel{
   margin: auto;
-  width:50%;
+  width:70%;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
-.conthome h2{
+.conthomel h2{
   padding-bottom: 50px;
+  text-align: left;
+}
+.conthomer h2{
+  padding-bottom: 50px;
+  text-align: right;
 }
 .homimgl{
   height: 300px;
   float: left;
-  padding-right: 50px;
+  padding-right: 150px;
   margin-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 .homimgr{
   height: 300px;
   float: right;
-  padding-left: 50px;
+  padding-left: 150px;
   margin-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  text-align: right;
 }
 .footer-dark {
+  margin-top:30px;
   padding:50px 0;
   color:#f0f9ff;
   background-color:#282d32;
@@ -174,4 +183,13 @@ nav ul li a{
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+}
+
+hr {
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    margin: auto;
 }
